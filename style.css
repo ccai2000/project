@@ -1,0 +1,37 @@
+/* center the content and add spacing */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* style the input field */
+#taskInput {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* add button blue with rounded edges */
+#addTaskBtn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* change button color on hover */
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+/* style completed tasks with strikethrough */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}

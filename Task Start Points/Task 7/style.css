@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f2f1;
+    color: #323130;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0078d4;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #f3f2f1;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    background-color: #e1dfdd;
+}
+
+li button {
+    background: none;
+    border: none;
+    color: #0078d4;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+li button:hover {
+    color: #005a9e;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #605e5c;
+}
